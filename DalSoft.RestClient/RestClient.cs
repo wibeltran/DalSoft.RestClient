@@ -106,4 +106,5 @@ namespace DalSoft.RestClient
 
         private StronglyTypedMemberAccessWrapper CreateStronglyTypedMemberAccessWrapper() => new StronglyTypedMemberAccessWrapper(new MemberAccessWrapper(HttpClientWrapper, BaseUri, null, new Headers()));
     }
+    
 }
